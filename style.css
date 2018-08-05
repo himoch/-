@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+body{
+margin:0px;
+display:flex;
+overflow:hidden;
+}
+
+div.left{
+background-color: #333355;
+color: #eeeeee;
+float:left;
+padding:5px;
+height:100%;
+width:20%;
+}
+
+div.left table{
+background-color: #333355;
+color: #eeeeee;
+float:left;
+}
+
+div.left div{
+margin:10px;
+}
+
+div.left div.memberInfo table{
+border-collapse:collapse;
+display:none;
+float:none;
+width:100%;
+}
+
+div.left div.memberInfo table tr td{
+border-color:#eeeeee;
+border:solid 1px;
+border-collapse:collapse;
+}
+
+div.left div.memberInfo table tr td.order{
+width:5%;
+}
+
+div.left div.memberInfo table tr td.name{
+width:50%;
+}
+
+div.left div.memberInfo table tr td.side{
+width:20%;
+}
+
+div.left div.memberInfo table tr td.selectArea{
+width:5%;
+}
+
+div.left div.memberInfo table tr td.Merlin{
+color:#00ffff;
+border-color:#eeeeee;
+}
+
+div.left div.memberInfo table tr td.justice{
+color:#00ffff;
+border-color:#eeeeee;
+}
+
+div.left div.memberInfo table tr td.dark{
+color:#ff5555;
+border-color:#eeeeee;
+}
+
+div.left div.memberInfo table tr td.name.selected{
+color:#ffff00;
+border-color:#eeeeee;
+}
+
+p span.justice{
+color:#00ffff;
+border-color:#eeeeee;
+}
+
+p span.dark{
+color:#ff5555;
+border-color:#eeeeee;
+}
+div.left div p.roles div{
+margin:0px 20px;
+}
+
+p{
+margin:0px;
+}
+
+div.right{
+flex:1;
+text-align:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+div.right-top{
+height:25%;
+width:100%;
+}
+
+div.right-top table{
+text-align:center;
+border-collapse:collapse;
+height:80%;
+width:90%;
+margin:10px auto;
+}
+
+div.right-top table tr td{
+border-color:#eeeeee;
+border:solid 1px;
+border-collapse:collapse
+}
+
+div.right-top table tr td.success{
+color:#0000ff;
+border-color:#000000;
+}
+
+div.right-top table tr td.failed{
+color:#ff0000;
+border-color:#000000;
+}
+
+div.right-bottom{
+flex:1;
+width:100%;
+}
+
+div.right-bottom div.message-area{
+text-align:left;
+border-color:#000000;
+border-style:solid;
+border-width:1px;;
+height:60%;
+width:90%;
+margin:20px auto;
+overflow-y:scroll;
+overflow-x:hidden;
+padding:10px 0px;
+}
+
+div.right-bottom div.message-area hr{
+border-style:dashed;
+border-color:#dddddd;
+margin:0px 10px;
+}
+
+div.right-bottom div.message-area p{
+margin:0px 10px;
+}
+
+div.right-bottom div.message-area span.former{
+color:#aaaaaa;
+}
+
+span.success{
+color:#0000ff;
+font-weight:bold;
+}
+
+span.failed{
+color:#ff0000;
+font-weight:bold;
+}
+
+div.left div.memberInfo table tr td.current{
+color:#ffff00;
+border-color:#eeeeee;
+}
